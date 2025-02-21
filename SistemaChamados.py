@@ -90,7 +90,7 @@ def remover_chamado_se_estiver_fechado(codigo):
 
 def estatisticas():
     total_chamdados = len(dicionario_de_chamados)
-    abertos = sum(1 for chamado in dicionario_de_chamados.values() if chamado['status'] == "Aberto")
+    abertos = sum(1 for chamado in dicionario_de_chamados.values() if chamado['status'] == "aberto")
     fechados = total_chamdados - abertos
     print(f"Total de chamados: {total_chamdados}")
     print(f"Chamados abertos: {abertos}")
