@@ -96,9 +96,12 @@ def estatisticas():
     print(f"Chamados abertos: {abertos}")
     print(f"Chamados fechados: {fechados}")
 
-
-        
-
+def limpar_lista_de_chamados():
+    
+    dicionario_de_chamados_vazio_limpa_lista_por_favor = {}
+    
+    with open ("chamados.json", "w") as arquivo:
+        json.dump(dicionario_de_chamados_vazio_limpa_lista_por_favor, arquivo)
 
 
 def menu():
@@ -111,6 +114,8 @@ def menu():
         print("4- Listar todos os chamados.")
         print("5- Remover chamado.")
         print("6- Exibir estatísticas.")
+        print("7- Limpar lista de chamados.")
+        print("8- inverter a lista de chamados")
 
         opcao = input("Escolha uma opção: ")
 
@@ -178,6 +183,14 @@ def menu():
         elif opcao == 6:
             limpar_tela()
             estatisticas()
+
+        elif opcao == 7:
+            limpar_lista_de_chamados()
+            print("A lista de chamados foi apagada com sucesso!")
+
+        elif opcao == 8:
+            Lista_invertida()
+
             
 
 menu()
