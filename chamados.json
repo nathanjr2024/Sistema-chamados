@@ -1,0 +1,51 @@
+{
+    "1": {
+        "codigo": "1",
+        "nome_cliente": "Nathan",
+        "nivel_prioridade": "1",
+        "descricao_do_chamado": "Treinei igual frango",
+        "status": "aberto"
+    },
+    "2": {
+        "codigo": "2",
+        "nome_cliente": "Lucas",
+        "nivel_prioridade": "2",
+        "descricao_do_chamado": "Problemas de acesso ao brightspace",
+        "status": "aberto"
+    },
+    "3": {
+        "codigo": "3",
+        "nome_cliente": "Kauan",
+        "nivel_prioridade": "3",
+        "descricao_do_chamado": "Sono demais kkkkkkkk",
+        "status": "aberto"
+    },
+    "4": {
+        "codigo": "4",
+        "nome_cliente": "Jonas Wesley",
+        "nivel_prioridade": "3",
+        "descricao_do_chamado": "Aplica\u00e7\u00e3o caiu",
+        "status": "aberto"
+    },
+    "5": {
+        "codigo": "5",
+        "nome_cliente": "Paulo",
+        "nivel_prioridade": "3",
+        "descricao_do_chamado": "Sem internet.",
+        "status": "aberto"
+    },
+    "6": {
+        "codigo": "6",
+        "nome_cliente": "Jesus",
+        "nivel_prioridade": "3",
+        "descricao_do_chamado": "Estou voltando!",
+        "status": "aberto"
+    },
+    "7": {
+        "codigo": "7",
+        "nome_cliente": "Zezinho do Graal",
+        "nivel_prioridade": "1",
+        "descricao_do_chamado": "Caiu de moto!",
+        "status": "fechado"
+    }       
+}
